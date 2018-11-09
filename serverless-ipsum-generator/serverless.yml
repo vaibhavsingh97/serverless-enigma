@@ -1,0 +1,21 @@
+service: serverless-ipsum-generator
+
+provider:
+  name: aws
+  runtime: python3.6
+
+functions:
+  impsum_generator:
+    handler: handler.impsum_generator
+    events:
+      - http:
+          path: /
+          method: get
+          cors: true
+
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
