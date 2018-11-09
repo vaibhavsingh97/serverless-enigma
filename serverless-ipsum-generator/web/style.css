@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font: 300;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    margin: 40px;
+    text-align: justify;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    border:  1px solid black;
+    padding: 10px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #2ecc71;
+    transition: all .3s ease;
+    padding: 1em;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+button:hover{
+    background-color: #27ae60;
+}

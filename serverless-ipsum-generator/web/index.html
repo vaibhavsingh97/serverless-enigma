@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lorem ipsum generator</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>Serverless Lorem Ipsum genrator</h1>
+    <p id="lorem-text"></p>
+    <button id="cpyBtn">Copy to clipboard</button>
+</body>
+<script>
+var url = "https://j7kbpcnbz7.execute-api.us-east-1.amazonaws.com/dev/";
+var dispContent = document.querySelector("#lorem-text");
+fetch(url).then(function(response) {
+  response.text().then(function(text) {
+    dispContent.textContent = text;
+  });
+});
+var button = document.querySelector('#cpyBtn');
+button.addEventListener("click", function() {
+  var range = document.createRange();  
+  range.selectNode(dispContent);  
+  window.getSelection().addRange(range); 
+  document.execCommand('copy');
+});
+</script>
+</html>
