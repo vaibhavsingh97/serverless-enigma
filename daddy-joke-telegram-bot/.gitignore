@@ -19,3 +19,9 @@ var/
 
 # Serverless directories
 .serverless
+
+# Token file
+serverless.env.yml
+
+# Node module
+node_modules
