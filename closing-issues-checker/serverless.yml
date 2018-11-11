@@ -1,0 +1,23 @@
+service: closing-issues-checker
+
+provider:
+  name: aws
+  runtime: python3.6
+  environment:
+    GITHUB_TOKEN: ${ssm:github_token~true}
+
+functions:
+  hello:
+    handler: handler.github_check
+    events:
+      - http:
+          path: webhook
+          method: POST
+          cors: true
+
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
