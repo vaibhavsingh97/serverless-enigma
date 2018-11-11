@@ -6,7 +6,7 @@ See this page: [NoServerNovember](https://serverless.com/blog/no-server-november
 
 ## Demo
 
-Try the bot here :robot: : [t.me/daddyjokebot](t.me/daddyjokebot)
+Try the bot here :robot: : [t.me/daddyjokebot](https://t.me/daddyjokebot)
 
 ![Day 2 demo gif](/daddy-joke-telegram-bot/demo/demo.gif)
 
