@@ -18,11 +18,11 @@ Rules to check:
 
 **Without closing keyword in PR body**
 
-![PR without closing keyword](/demo/demo1.png)
+![PR without closing keyword](https://github.com/vaibhavsingh97/serverless-enigma/blob/master/closing-issues-checker/demo/demo1.png)
 
 **With closing keyword in PR body**
 
-![PR with closing keyword](/demo/demo2.png)
+![PR with closing keyword](https://github.com/vaibhavsingh97/serverless-enigma/blob/master/closing-issues-checker/demo/demo2.png)
 
 ## Prerequisites
 
