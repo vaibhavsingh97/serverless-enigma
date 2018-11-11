@@ -10,4 +10,4 @@ See this page: [NoServerNovember](https://serverless.com/blog/no-server-november
 
 - [Challenge 1](https://github.com/vaibhavsingh97/serverless-enigma/tree/master/serverless-ipsum-generator)
 - [Challenge 2](https://github.com/vaibhavsingh97/serverless-enigma/tree/master/daddy-joke-telegram-bot)
-- [Challenge 3] - Solution Coming Soon
+
