@@ -1,14 +1,24 @@
 {
   "name": "serverless-ipsum-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A serverless-backed web app that displays custom Serverless Ipsum",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "python",
+    "aws",
+    "lambda",
+    "serverless"
+  ],
+  "author": "vaibhavsingh97",
+  "license": "MIT",
   "dependencies": {
     "serverless-python-requirements": "^4.2.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/vaibhavsingh97/serverless-enigma/issues"
+  },
+  "homepage": "https://github.com/vaibhavsingh97/serverless-enigma/blob/master/serverless-ipsum-generator/Readme.md"
 }
