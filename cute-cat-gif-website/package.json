@@ -1,0 +1,30 @@
+{
+  "name": "cute-cat-gif-website",
+  "version": "1.0.0",
+  "description": "A website which shows random cat gif",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaibhavsingh97/serverless-enigma.git"
+  },
+  "keywords": [
+    "python",
+    "aws",
+    "serverless",
+    "flask"
+  ],
+  "author": "vaibhavsingh97",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaibhavsingh97/serverless-enigma/issues"
+  },
+  "homepage": "https://github.com/vaibhavsingh97/serverless-enigma#readme",
+  "dependencies": {
+    "serverless": "^1.33.1",
+    "serverless-python-requirements": "^4.2.5",
+    "serverless-wsgi": "^1.5.3"
+  }
+}

@@ -1,0 +1,23 @@
+service: cute-cat-gif-website
+
+plugins:
+  - serverless-python-requirements
+  - serverless-wsgi
+
+provider:
+  name: aws
+  runtime: python3.6
+
+custom:
+  wsgi:
+    app: application.app
+    packRequirements: false
+  pythonRequirements:
+    dockerizePip: non-linux
+
+functions:
+  app:
+    handler: wsgi.handler
+    events:
+      - http: ANY /
+      - http: "ANY {proxy+}"
