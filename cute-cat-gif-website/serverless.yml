@@ -7,6 +7,8 @@ plugins:
 provider:
   name: aws
   runtime: python3.6
+  environment:
+    GIPHY_TOKEN: ${ssm:giphy_token~true}
 
 custom:
   wsgi:
