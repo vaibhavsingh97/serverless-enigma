@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/vaibhavsingh97/serverless-enigma#readme",
   "dependencies": {
-    "serverless": "^1.33.1",
+    "serverless": "^1.33.2",
     "serverless-python-requirements": "^4.2.5",
     "serverless-wsgi": "^1.5.3"
   }
